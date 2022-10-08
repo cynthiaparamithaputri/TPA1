@@ -1,0 +1,342 @@
+/* reset style */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* styling baru */
+
+body {
+    background-color: rgb(16, 19, 22);
+}
+
+
+/* navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo span {
+    margin-top: -10px;
+    margin-left: 40px;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Inter Tight', sans-serif;
+    color: rgb(215, 157, 112);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+    padding: 5px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav ul li a {
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+nav ul li a:hover {
+    color: rgb(215, 157, 112);
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    align-items: center;
+}
+
+footer h3 {
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.message {
+    font-style: italic;
+}
+
+footer a {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/* home */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.home-img img {
+    border-radius: 2%;
+    margin: 0px 5px;
+}
+
+.home-text {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-text h1 {
+    color: rgb(215, 157, 112);
+    font-weight: 700;
+    font-size: 56px;
+    font-style: italic;
+    font-family: 'Inter Tight', sans-serif;
+    letter-spacing: 10px;
+}
+
+.home-text h3 {
+    font-weight: 200;
+    font-size: 20px;
+    font-family: 'Inter Tight', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.home-text a {
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px 50px;
+    border-radius: 10px;
+    background-color: rgb(215, 157, 112);
+    color: rgb(16, 19, 22);
+}
+
+.home-text a:hover {
+    color: rgb(215, 157, 112);
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* about */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.about-img img {
+    border: 2px solid;
+    border-color: rgb(215, 157, 112);
+    border-radius: 50%;
+}
+
+.about-intro {
+    margin-top: 25px;
+}
+
+.about-intro h3 {
+    font-weight: 300;
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Inter Tight', sans-serif;
+    letter-spacing: 2px;
+}
+
+.about-intro h3 .bold {
+    font-weight: 700;
+    color: rgb(215, 157, 112);
+}
+
+.about-text {
+    margin: 25px 150px;
+    padding: 0px 50px 50px 50px;
+    border-radius: 10px;
+    background-color: rgb(215, 157, 112);
+    align-self: stretch;
+}
+
+.about-text h3 {
+    margin-top: 25px;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(16, 19, 22);
+    background-color: rgb(215, 157, 112);
+}
+
+.about-text p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(16, 19, 22);
+    background-color: rgb(215, 157, 112);
+}
+
+.about-text ul {
+    width: 300px;
+    margin-top: 15px;
+    column-count: 2;
+    column-gap: 20px;
+    background-color: rgb(215, 157, 112);
+}
+
+.about-text ul li {
+    list-style: disc;
+    list-style-position: inside;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(16, 19, 22);
+    background-color: rgb(215, 157, 112);
+}
+
+.about-text a {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(16, 19, 22);
+    background-color: rgb(215, 157, 112);
+}
+
+
+/* portfolio */
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.portfolio h3 {
+    margin: 25px 0;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    font-style: italic;
+    font-family: 'Inter Tight', sans-serif;
+    letter-spacing: 5px;
+    border: 2px solid rgb(215, 157, 112);
+    border-style: outset;
+}
+
+.pi {
+    margin-bottom: 50px;
+}
+
+.portfolio embed {
+    margin: 15px 0;
+}
+
+
+/* article */
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 75px 150px 75px 150px;
+}
+
+.article img {
+    align-self: center;
+}
+
+.article h1 {
+    font-weight: 700;
+    font-size: 48px;
+    font-style: italic;
+    font-family: 'Inter Tight', sans-serif;
+    letter-spacing: 10px;
+    padding: 5px;
+}
+
+.article h3 {
+    font-weight: 700;
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'Inter Tight', sans-serif;
+    letter-spacing: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.article-text {
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(215, 157, 112);
+}
+
+.article-text ul li {
+    margin: 0 0 25px 0;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgb(215, 157, 112);
+}
+
+.article-text a,
+p,
+h4 {
+    color: rgb(16, 19, 22);
+}
+
+.article-text a,
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.article-text h4 {
+    margin-top: 15px;
+}
+
+.article-text a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.article-text p {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.article-text p {
+    font-weight: 500;
+}
